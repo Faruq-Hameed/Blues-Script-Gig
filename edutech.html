@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Academy</title>
+    <link rel="stylesheet" href="online.css">
+    <link rel="stylesheet" href="edtech.css">
+</head>
+<body>
+    <nav>
+        <a href="https://training.bluescripts.org/"><img src="image.png" alt="Company Logo" class="logo"></a>
+    </nav>
+    <header>
+            <h1>Welcome to Our BlueScript Academy</h1>
+                <p>Master new skills online with top instructors.</p>
+    </header>
+
+    <section class="courses">
+        <h2>Featured Courses</h2>
+        <div class="course-card">
+            <h3>Web Development</h3>
+            <p>Learn HTML, CSS, and JavaScript to build stunning websites.</p>
+        </div>
+        <div class="course-card">
+            <h3>Data Science</h3>
+            <p>Master Python and data analysis to advance your career.</p>
+        </div>
+        <div class="course-card">
+            <h3>Digital Marketing</h3>
+            <p>Grow your business using modern marketing strategies.</p>
+        </div>
+    </section>
+
+        <h1 class="join-community">Join Our Learning Community</h1>
+    <div class="container">
+        <div class="summary">
+            <p>Our Online Academy is dedicated to providing top-quality education in various fields such as Web Development, Data Science, Artificial Intelligence, and more. We offer flexible learning options, expert instructors, and a vibrant community to help you achieve your learning goals. Empower your future with skills that matter!</p>
+        </div>
+        <h3>Kindly fill in your details our team will reach out to you;</h3>
+        <form id="interestForm" class="form-container" action="https://formspree.io/f/mannzrea" method="POST">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="address">Current Address</label>
+            <input type="text" id="address" name="address" required>
+            <label for="course">Interested Course</label>
+            <select id="course" name="course" required>
+                <option value="web-development">Web Development</option>
+                <option value="data-science">Data Science</option>
+                <option value="ai">Artificial Intelligence</option>
+                <option value="cyber-security">Cyber Security</option>
+                <option value="design">UI/UX Design</option>
+            </select>
+            <div class="form-group">
+                <label for="experience">Prior Experience (Optional)</label>
+                <textarea id="experience" placeholder="Tell us about any relevant experience you have..."></textarea>
+            </div>
+            <div class="form-group">
+                <label for="question">Do you have any special request? (Optional)</label>
+                <textarea id="question" placeholder="Any special request..."></textarea>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 BlueScript Academy. All Rights Reserved.</p>
+    </footer>
+
+    <script src="form.js"></script>
+</body>
+</html>

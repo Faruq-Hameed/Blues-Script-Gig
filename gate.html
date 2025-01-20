@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gate Automation Training Program</title>
+    <link rel="stylesheet" href="gate.css">
+</head>
+<body>
+    <!-- Navigation with Logo -->
+    <nav>
+        <a href="https://training.bluescripts.org/"><img src="image.png" alt="Company Logo" class="logo"></a>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Professional Gate Automation Training</h1>
+        <p>Master the installation, programming, and maintenance of automated gate systems</p>
+    </section>
+
+    <!-- Video Section -->
+    <section class="video-section">
+        <div class="container">
+            <div class="video-container" id="videoPlaceholder">
+                <div>
+                    <!-- Replace src with your video URL -->
+                    <video id="trainingVideo"  controls autoplay>
+                        <source src="vid.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="container">
+        <div class="features">
+            <div class="feature-card">
+                <h3>Complete Technical Training</h3>
+                <p>Learn gate automation systems, motor types, control boards, and advanced programming techniques.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Practical Installation</h3>
+                <p>Hands-on experience with different types of gates, sensors, and safety devices.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Troubleshooting Skills</h3>
+                <p>Master diagnostic procedures and solve common automation system issues.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certification Section -->
+    <section class="certification">
+        <div class="container">
+            <h2>Industry-Recognized Certification</h2>
+            <p>Upon completion, receive a professional certification validating your expertise in gate automation systems.</p>
+        </div>
+    </section>
+
+    <!-- Form Section -->
+    <section class="form-section">
+        <div class="container">
+            <div class="form-container">
+                <h2 style="margin-bottom: 2rem; text-align: center; color: #1a56db;">Register Your Interest</h2>
+                <form id="interestForm" action="https://formspree.io/f/mannzrea" method="POST">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone</label>
+                        <input type="tel" id="phone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="address">Current Address</label>
+                        <input type="text" id="address" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="experience">Prior Experience (Optional)</label>
+                        <textarea id="experience" placeholder="Tell us about any relevant experience you have..."></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="question">Do you have any special request? (Optional)</label>
+                        <textarea id="question" placeholder="Any special request..."></textarea>
+                    </div>
+                    <div class="form-group" style="display: none;"> 
+                        <input type="text" id="course" value="Gate Automation">
+                    </div>
+                    <button type="submit">Submit Interest</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <script src="form.js">
+    </script>
+</body>
+</html>

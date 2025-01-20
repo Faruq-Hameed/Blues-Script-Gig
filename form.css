@@ -1,0 +1,27 @@
+.thank-you, .error-message {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    margin-top: 20px;
+}
+
+.thank-you h2, .error-message h2 {
+    color: #1a56db;
+    margin: auto;
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 15px;
+    background-color: #1a56db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #144a96;
+}

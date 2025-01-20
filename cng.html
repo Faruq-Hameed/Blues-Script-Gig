@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CNG Training Program</title>
+ <link rel="stylesheet" href="cng.css">
+ <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <nav>
+        <a href="https://training.bluescripts.org/"><img src="image.png" alt="Company Logo" class="logo"></a>
+    </nav>
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Professional CNG Training Program</h1>
+        <p>Master CNG systems installation, maintenance, and safety protocols</p>
+    </section>
+
+  <!-- Video Section -->
+  <section class="video-section">
+    <div class="container">
+        <div class="video-container" id="videoPlaceholder">
+            <div>
+                <!-- Replace src with your video URL -->
+                <video id="trainingVideo"  controls autoplay>
+                    <source src="CNG_VID.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Features Section -->
+    <section class="container">
+        <div class="features">
+            <div class="feature-card">
+                <h3>Comprehensive Curriculum</h3>
+                <p>Learn everything from basic principles to advanced troubleshooting techniques.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Hands-on Training</h3>
+                <p>Get practical experience with real CNG systems and equipment.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Safety First</h3>
+                <p>Learn industry-standard safety protocols and best practices.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Form Section -->
+    <section class="form-section">
+
+        <div class="container">
+            <div class="form-container">
+                <h2 style="margin-bottom: 2rem; text-align: center;">Register Your Interest</h2>
+                       <form id="interestForm" class="form-container" action="https://formspree.io/f/mannzrea" method="POST">
+
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone</label>
+                        <input type="tel" id="phone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="address">Current address</label>
+                        <input type="text" id="address" required>
+                    </div>
+                    <div class="form-group" style="display: none;"> 
+                        <input type="text" id="course" value="CNG Training">
+                    </div>
+                    <div class="form-group">
+                        <label for="experience">Prior Experience (Optional)</label>
+                        <textarea id="experience" placeholder="Tell us about any relevant experience you have..."></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="question">Do you have any special request? (Optional)</label>
+                        <textarea id="question" placeholder="Any special request..."></textarea>
+                    </div>
+                    <button type="submit">Submit Interest</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <script src="form.js"></script>
+</body>
+</html>
